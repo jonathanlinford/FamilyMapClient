@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <group android:visible="true"
+            android:id="@+id/menuGroup">
+                <item
+                    android:id="@+id/searchMenuItem"
+                    android:icon="@android:drawable/ic_menu_search"
+                    android:title="Search"
+                    android:visible="true"
+                    app:showAsAction="ifRoom|withText"/>
+                <item
+                    android:id="@+id/filterMenuItem"
+                    android:icon="@drawable/ic_filter"
+                    android:title="Settings"
+                    android:visible="true"
+                    app:showAsAction="ifRoom|withText"
+                    />
+                <item
+                    android:id="@+id/settingsMenuItem"
+                    android:icon="@android:drawable/ic_menu_preferences"
+                    android:title="Filter"
+                    android:visible="true"
+                    app:showAsAction="ifRoom|withText"
+                    />
+        </group>
+</menu>
